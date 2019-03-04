@@ -1,9 +1,60 @@
 <!Doctype.html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="" rel="stylesheet" type="text/css">
+    <style>
+        vieuwport{width:100%;}
+        body{background-color:green;}
+        
+        @media only screen and (max-width: 600px)
+        {body {background-color: red;}
+                #small{display:none}
+                #medium{display:none}
+                #large{display:block}
+        }
+        
+        @media only screen and (min-width:600px)
+        {body {background-color:greenyellow;}
+              #small{display:none}
+              #large{display:none}
+        }
+        
+        @media only screen and (min-width: 768px)
+        {body {background-color:blue}
+                #small{display:none}
+                #medium{display:none}
+                #large{display:block}
+        }
+        
+        
+        
+        #small{width:65%;background-color:grey;height: auto;font-size:20px;}
+        #medium{width:65%;background-color:grey;height: auto;font-size:18px;}
+        #large{width:65%;background-color:grey;height: auto;font-size:16px;}
+    </style>
     </head>
     <body>
-    blablabla
+        <div>
+            <p>
+            <div id="small"><h1>small devices</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed viverra est. Vivamus molestie urna vel ligula dapibus vulputate. Aenean ornare erat vitae ornare sagittis. Sed elit nunc, ultrices consectetur euismod a, gravida cursus libero. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec ultrices lectus et diam dignissim rutrum. Mauris volutpat sodales arcu, non sodales nibh porta in. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin aliquam neque a auctor ullamcorper. Phasellus sollicitudin cursus orci. Suspendisse potenti.
+
+            Curabitur a massa tempor, ullamcorper leo quis, vulputate quam. Nulla orci nisi, consequat et est quis, tincidunt pellentesque urna. Sed hendrerit malesuada quam. Maecenas dignissim viverra laoreet. Morbi felis erat, facilisis eget ipsum in, pretium tincidunt ex. Aliquam molestie nunc mi, sit amet volutpat ligula aliquet vitae. Fusce felis urna, malesuada sit amet accumsan ac, dapibus non lorem. Vestibulum luctus leo vitae finibus varius. Duis elementum nunc at urna aliquam cursus. Morbi semper nibh quis porttitor accumsan. Ut efficitur magna eu massa dignissim, non posuere massa sodales.</p>
+            </div>
+            
+            <div id="medium">
+            <h1>medium devices</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed viverra est. Vivamus molestie urna vel ligula dapibus vulputate. Aenean ornare erat vitae ornare sagittis. Sed elit nunc, ultrices consectetur euismod a, gravida cursus libero. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec ultrices lectus et diam dignissim rutrum. Mauris volutpat sodales arcu, non sodales nibh porta in. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin aliquam neque a auctor ullamcorper. Phasellus sollicitudin cursus orci. Suspendisse potenti.
+
+            Curabitur a massa tempor, ullamcorper leo quis, vulputate quam. Nulla orci nisi, consequat et est quis, tincidunt pellentesque urna. Sed hendrerit malesuada quam. Maecenas dignissim viverra laoreet. Morbi felis erat, facilisis eget ipsum in, pretium tincidunt ex. Aliquam molestie nunc mi, sit amet volutpat ligula aliquet vitae. Fusce felis urna, malesuada sit amet accumsan ac, dapibus non lorem. Vestibulum luctus leo vitae finibus varius. Duis elementum nunc at urna aliquam cursus. Morbi semper nibh quis porttitor accumsan. Ut efficitur magna eu massa dignissim, non posuere massa sodales.</p></div>
+            
+            <div id="large">
+             <h1>large devices</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed viverra est. Vivamus molestie urna vel ligula dapibus vulputate. Aenean ornare erat vitae ornare sagittis. Sed elit nunc, ultrices consectetur euismod a, gravida cursus libero. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec ultrices lectus et diam dignissim rutrum. Mauris volutpat sodales arcu, non sodales nibh porta in. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin aliquam neque a auctor ullamcorper. Phasellus sollicitudin cursus orci. Suspendisse potenti.
+
+            Curabitur a massa tempor, ullamcorper leo quis, vulputate quam. Nulla orci nisi, consequat et est quis, tincidunt pellentesque urna. Sed hendrerit malesuada quam. Maecenas dignissim viverra laoreet. Morbi felis erat, facilisis eget ipsum in, pretium tincidunt ex. Aliquam molestie nunc mi, sit amet volutpat ligula aliquet vitae. Fusce felis urna, malesuada sit amet accumsan ac, dapibus non lorem. Vestibulum luctus leo vitae finibus varius. Duis elementum nunc at urna aliquam cursus. Morbi semper nibh quis porttitor accumsan. Ut efficitur magna eu massa dignissim, non posuere massa sodales.</p>
+            
+            </div>
+            
+        </div>
+   
     </body>
 </html>
