@@ -1,0 +1,29 @@
+        body{background-color:green;}
+        
+        #small{width:65%;background-color:grey;height: auto;font-size:20px;}
+        #medium{width:65%;background-color:grey;height: auto;font-size:18px;}
+        #large{width:65%;background-color:grey;height: auto;font-size:16px;}
+        
+        @media only screen and (max-width: 600px)
+        {body {background-color: red;}
+                #small{width:80%}
+                #medium{width:80%}
+                #large{width:80%}
+        }
+        
+        @media only screen and (min-width:600px)
+        {body {background-color:greenyellow;}
+              #small{width:30%}
+                #medium{width:60%}
+                #large{width:90%}
+        }
+        
+        @media only screen and (min-width: 768px)
+        {body {background-color:blue}
+                #small{width:30%;display: inline-block;}
+                #medium{width:30%;display: inline-block;}
+                #large{width:30%;display: inline-block;}
+        }
+        
+        
+        
